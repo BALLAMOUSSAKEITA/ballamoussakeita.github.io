@@ -1,4 +1,14 @@
-# ballamoussakeita.github.io
+<?php
+ 
+include '../../Controller/ActualiteC.php';
+
+
+   $actu = new ActualiteC();
+   $listeActualite="";
+   $listeActualite = $actu->afficherActualite();
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
